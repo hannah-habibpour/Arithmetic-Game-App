@@ -1,7 +1,16 @@
-
+import AdditionOperation from "./AdditionOperation"
+import MultiplicationOperation from "./MultiplicationOperation"
+import SetDuration from "./SetDuration"
+import Button from "../../shared/Button"
 function GameSettingForm() {
   return (
-    <div>GameSettingForm</div>
+    <div>
+      <AdditionOperation />
+      <MultiplicationOperation />
+      <SetDuration />
+      <Button>Start</Button>
+
+    </div>
   )
 }
 
